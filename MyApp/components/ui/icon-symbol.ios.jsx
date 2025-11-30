@@ -12,4 +12,3 @@ export function IconSymbol({ name, size = 24, color, style, weight = 'regular' }
   );
 }
 
-

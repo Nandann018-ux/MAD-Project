@@ -17,4 +17,3 @@ export function ExternalLink({ href, ...rest }) {
   );
 }
 
-

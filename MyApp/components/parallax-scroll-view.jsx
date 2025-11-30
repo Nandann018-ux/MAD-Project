@@ -7,7 +7,7 @@ import { useThemeColor } from '@/hooks/use-theme-color';
 const HEADER_HEIGHT = 250;
 
 export default function ParallaxScrollView({ children, headerImage, headerBackgroundColor }) {
-  const backgroundColor = useThemeColor({}, 'background');
+  const backgroundColor = useThemeColor(, 'background');
   const colorScheme = useColorScheme() ?? 'light';
   const scrollRef = useAnimatedRef();
   const scrollOffset = useScrollOffset(scrollRef);
@@ -34,5 +34,4 @@ const styles = StyleSheet.create({
   header: { height: HEADER_HEIGHT, overflow: 'hidden' },
   content: { flex: 1, padding: 32, gap: 16, overflow: 'hidden' },
 });
-
 

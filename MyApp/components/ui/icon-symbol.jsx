@@ -11,4 +11,3 @@ export function IconSymbol({ name, size = 24, color, style }) {
   return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
 }
 
-
